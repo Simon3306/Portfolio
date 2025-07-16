@@ -1,4 +1,6 @@
 import {
+  machine,
+  entrep,
   javascript,
   typescript,
   html,
@@ -26,6 +28,7 @@ import {
   powerautomate,
   dataverse,
   BI,
+  FPQ,
 } from "../assets";
 
 export const navLinks = [
@@ -108,10 +111,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -205,67 +204,57 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Machine 2024",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Développement et programmation de la machine des jeux de génie 2024 lors de ma première année d'étude",
     tags: [
       {
-        name: "react",
+        name: "machine",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "esp32",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "arduino",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: machine,
   },
   {
-    name: "Job IT",
+    name: "Application Scanner",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Développement d'une application scanner adaptée aux besoins de l'équipe d'entreprenariat desjeux de génie 2025 ",
     tags: [
       {
-        name: "react",
+        name: "Développement",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+  
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: entrep,
   },
   {
-    name: "Trip Guide",
+    name: "Site Web",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Création d'un site web pour répondre aux demandes d'un client. Création du backend et front-end.",
     tags: [
       {
-        name: "nextjs",
+        name: "full-stack",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "power pages",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FPQ,
   },
 ];
 
