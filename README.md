@@ -24,16 +24,12 @@ Le site a été conçu pour être **simplement déployé**, **modulaire** et **�
 - Framer Motion (animations)
 - Git & GitHub pour le versionnement
 
-## 🔗 Accès au site
-
-👉 [Lien vers le portfolio en ligne](https://ton-lien.vercel.app) *(remplace avec ton vrai lien)*
-
 ## 📫 Me contacter
 
 Tu peux me rejoindre par :
 
 - ✉️ Email : simon-olivier@example.com  
-- 💼 LinkedIn : [TonProfilLinkedIn](https://linkedin.com/in/tonprofil)
+- 💼 LinkedIn : [Simon-Olivier Bolduc](https://linkedin.com/in/simon-olivier-bolduc-4133092b3)
 
 ---
 
