@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Me contacter</p>
-        <h3 className={styles.sectionHeadText}>Contacte.</h3>
+        <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
           ref={formRef}
@@ -103,7 +103,7 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Votre Messagee</span>
+            <span className='text-white font-medium mb-4'>Votre Message</span>
             <textarea
               rows={7}
               name='message'
